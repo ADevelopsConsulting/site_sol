@@ -171,3 +171,17 @@ footer .social-icons i {
     height: 24px;
     line-height: 24px;
 }
+
+.influencer-svg {
+    max-width: 600px; /* Ajuste o tamanho máximo conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente com margem superior/inferior */
+    border-radius: 10px; /* Opcional: arredonda as bordas, se desejar */
+}
+.influencer-svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
