@@ -4,114 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sol Alves - Influenciadora Digital</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
-    <!-- Link atualizado do Font Awesome para a versão 6.5.2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Seção de Apresentação -->
-    <section id="home" class="hero">
-        <h1>Bem-vindo(a) ao mundo de Sol Alves</h1>
-        <p>Influenciadora digital com 30 anos, pedagoga e psicopedagoga, pronta para inspirar e engajar!</p>
-        <img src="Sol.png" alt="Sol Alves" class="influencer-svg">
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Sol Alves</div>
+            <button class="mobile-menu-btn" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="mainMenu">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#analytics">Estatísticas</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Trabalhos</a></li>
+                    <li><a href="#pricing">Valores</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container hero-content">
+            <h1>Bem-vindo(a) ao mundo de Sol Alves</h1>
+            <p>Influenciadora digital com 30 anos, pedagoga e psicopedagoga, pronta para inspirar e engajar!</p>
+        </div>
+        <img src="Sol.jpeg" alt="Sol Alves" class="influencer-img">
     </section>
 
-    <!-- Seção de Estatísticas -->
-    <section id="analytics" class="analytics">
-        <h2>Estatísticas</h2>
-        <div class="stats-container">
-            <div class="stat">
-                <h3>2.138.344</h3>
-                <p>Visualizações</p>
-                <p>(Últimos 30 dias: 9 de mar - 7 de abr)</p>
-                <div class="chart">
-                    <p>66,0% Não seguidores | 34,0% Seguidores</p>
+    <!-- Analytics Section -->
+    <section id="analytics" class="section">
+        <div class="container">
+            <h2 class="section-title">Estatísticas</h2>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>2.138.344</h3>
+                    <p>Visualizações</p>
+                    <p>(Últimos 30 dias: 9 de mar - 7 de abr)</p>
+                    <div class="chart">
+                        <p>66,0% Não seguidores | 34,0% Seguidores</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>855.528</h3>
+                    <p>Contas alcançadas (+3.127,3%)</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Por tipo de conteúdo</h3>
+                    <p>Reels: 67,5% | Stories: 32,2% | Publicações: 0,3%</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Alcance do conteúdo</h3>
+                    <p>Reels: 54,4 mil | Publicações: 10,5 mil | Stories: 3.862 | Vídeos: 441</p>
+                </div>
+                <div class="stat-card">
+                    <h3>55.546</h3>
+                    <p>Contas alcançadas</p>
+                    <p>(+334% x 26 set - 25 out)</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Gênero</h3>
+                    <p>64,1% Mulheres | 35,8% Homens</p>
                 </div>
             </div>
-            <div class="stat">
-                <h3>855.528</h3>
-            <p style="margin-bottom: 30px;"</p>
-                <p>Contas alcançadas (+3.127,3%)</p>
-            </div>
-            <div class="stat">
-                <h3>Por tipo de conteúdo</h3>
-            <p style="margin-bottom: 20px;"</p>
-                <p>Reels: 67,5% | Stories: 32,2% | Publicações: 0,3%</p>
-            </div>
-            <div class="stat">
-                <h3>Alcance do conteúdo</h3>
-                <p>Reels: 54,4 mil | Publicações: 10,5 mil | Stories: 3.862 | Vídeos: 441</p>
-            </div>
-            <div class="stat">
-                <h3>55.546</h3>
-                <p>Contas alcançadas</p>
-                <p>(+334% x 26 set - 25 out)</p>
-            </div>
-            <div class="stat">
-                <h3>Gênero</h3>
-                <p>64,1% Mulheres | 35,8% Homens</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre</h2>
+            <div class="about-content">
+                <p>Olá, me chamo Sol Alves, tenho 30 anos, sou digital influencer, pedagoga e psicopedagoga, mãe e esposa.Atuo nas redes sociais desde 2020, faz mais ou menos 3 anos e meio, mostro um pouco do meu cotidiano e faço de tudo pra fazer meu público sorrir, meu Instagram é voltado para o humor, maternidade e cotidiano.</p>
             </div>
         </div>
     </section>
 
-    <!-- Seção Sobre -->
-    <section id="about" class="about">
-        <h2>Sobre</h2>
-        <p>Olá, me chamo Sol Alves, tenho 30 anos, sou digital influencer, pedagoga e psicopedagoga, mãe e esposa.Atuo nas redes sociais desde 2020, faz mais ou menos 3 anos e meio, mostro um pouco do meu cotidiano e faço de tudo pra fazer meu público sorrir, meu Instagram é voltado para o humor, maternidade e cotidiano.</p>
-    </section>
-
-    <!-- Seção de Trabalhos -->
-    <section id="portfolio" class="portfolio">
-        <h2>Trabalhos</h2>
-        <p>Tenho uma trajetória consolidada de colaborações com diversas empresas, mantendo parcerias fixas que refletem minha experiência e confiabilidade no setor.</p>
-        <p style="margin-bottom: 40px;"</p>
-            <div class="gallery">
-                <iframe src="https://www.instagram.com/reel/C-dTAovOfMS/embed" width="320" height="300" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-                <iframe src="https://www.instagram.com/reel/C-aXQnwOinZ/embed" width="320" height="440" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-                <iframe src="https://www.instagram.com/reel/DIMt2B8P4KB/embed" width="320" height="440" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-                <iframe src="https://www.instagram.com/reel/C_y2_lGuki7/embed" width="320" height="440" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Trabalhos</h2>
+            <div class="portfolio-intro">
+                <p>Tenho uma trajetória consolidada de colaborações com diversas empresas, mantendo parcerias fixas que refletem minha experiência e confiabilidade no setor.</p>
             </div>
-    </section>
-
-    <!-- Seção de Valores Promocionais -->
-    <section id="pricing" class="pricing">
-        <h2>Valores</h2>
-        <div class="pricing-container">
-            <div class="pricing-item">
-                <h3>Divulgação no Story</h3>
-            <p style="margin-bottom: 15px;"</p>
-                <p>Provador: R$ 150,00</p>
-                <p>Visita na empresa: R$ 100,00</p>
-                <p>Falar sobre serviços e produtos (divulgação simples): R$ 80,00</p>
-            </div>
-            <div class="pricing-item">
-                <h3>Divulgação no Feed</h3>
-            <p style="margin-bottom: 30px;"</p>
-                <p>1 post no feed: R$ 100,00</p>
-                <p>1 produção de reels: R$ 200,00</p>
-            </div>
-            <div class="pricing-item">
-                <h3>Parcerias Mensal</h3>
-                <p>1 divulgação por semana nos stories +  Compartilhamento de reels (se a empresa assim desejar): R$ 300,00</p>
+            <div class="portfolio-gallery">
+                <div class="gallery-item">
+                    <iframe src="https://www.instagram.com/reel/C-dTAovOfMS/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                </div>
+                <div class="gallery-item">
+                    <iframe src="https://www.instagram.com/reel/C-aXQnwOinZ/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                </div>
+                <div class="gallery-item">
+                    <iframe src="https://www.instagram.com/reel/DIMt2B8P4KB/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                </div>
+                <div class="gallery-item">
+                    <iframe src="https://www.instagram.com/reel/C_y2_lGuki7/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Rodapé -->
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2 class="section-title">Valores</h2>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <h3>Divulgação no Story</h3>
+                    <p>Provador: R$ 150,00</p>
+                    <p>Visita na empresa: R$ 100,00</p>
+                    <p>Falar sobre serviços e produtos (divulgação simples): R$ 80,00</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>Divulgação no Feed</h3>
+                    <p>1 post no feed: R$ 100,00</p>
+                    <p>1 produção de reels: R$ 200,00</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>Parcerias Mensal</h3>
+                    <p>1 divulgação por semana nos stories + Compartilhamento de reels (se a empresa assim desejar): R$ 300,00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Entre em contato: soll12@live.com</p>
-        <div class="social-icons">
-            <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/share/1DPEFrsxet/" target="_blank" aria-label="Facebook">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank" aria-label="WhatsApp">
-                <i class="fab fa-whatsapp"></i>
-            </a>
+        <div class="container">
+            <p>Entre em contato: soll12@live.com</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/share/1DPEFrsxet/" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                © 2025 A. Develops Consulting - Todos os direitos reservados
+            </div>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
