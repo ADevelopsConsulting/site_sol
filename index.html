@@ -3,73 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sol Alves - Influenciadora Digital</title>
+      <title>Sol Alves - Influenciadora Digital</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container header-container">
-            <div class="logo">Sol Alves</div>
-            <button class="mobile-menu-btn" id="menuToggle">
-                <i class="fas fa-bars"></i>
-            </button>
-            <nav>
-                <ul id="mainMenu">
-                    <li><a href="#hero">Início</a></li>
-                    <li><a href="#analytics">Estatísticas</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#portfolio">Trabalhos</a></li>
-                    <li><a href="#pricing">Valores</a></li>
-                </ul>
-            </nav>
+ <!-- Header -->
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <span class="logo-icon">☀️</span>
+            <span class="logo-text">SOL ALVES</span>
         </div>
-    </header>
+        <button class="mobile-menu-btn" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+            <ul id="mainMenu">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#analytics">Estatísticas</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#portfolio">Trabalhos</a></li>
+                <li><a href="#pricing">Valores</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
     <!-- Hero Section -->
     <section id="hero">
         <div class="container hero-content">
-            <h1>Bem-vindo(a) ao mundo de Sol Alves</h1>
-            <p>Influenciadora digital com 30 anos, pedagoga e psicopedagoga, pronta para inspirar e engajar!</p>
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <span class="label">Influenciadora Digital</span>
+                    <h1>Bem-vindo(a) ao mundo de <span class="highlight">Sol Alves</span></h1>
+                    <p>Influenciadora digital com 30 anos, pedagoga e psicopedagoga. Compartilho momentos de humor, maternidade e cotidiano, inspirando e engajando pessoas todos os dias.</p>
+                    <div class="hero-buttons">
+                        <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank" class="btn">Siga no Instagram</a>
+                        <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank" class="btn secondary">Vamos Conversar</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="Sol.jpeg" alt="Sol Alves" class="influencer-img">
+                        <div class="image-caption">
+                            <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                <span>@solzinhaalvess</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <img src="Sol.jpeg" alt="Sol Alves" class="influencer-img">
     </section>
 
     <!-- Analytics Section -->
     <section id="analytics" class="section">
         <div class="container">
-            <h2 class="section-title">Estatísticas</h2>
+            <h2 class="section-title">Estatísticas de Engajamento</h2>
+            <p class="section-subtitle">Dados recentes do perfil que demonstram o engajamento e impacto nas redes.</p>
             <div class="stats-container">
                 <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-eye"></i></div>
                     <h3>2.138.344</h3>
                     <p>Visualizações</p>
                     <p>(Últimos 30 dias: 9 de mar - 7 de abr)</p>
-                    <div class="chart">
-                        <p>66,0% Não seguidores | 34,0% Seguidores</p>
+                    <p>66,0% Não seguidores | 34,0% Seguidores</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <h3>855.528</h3>
+                    <p>Contas alcançadas</p>
+                    <p>(+3.127,3%)</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Por tipo de conteúdo</h3>
+                    <div class="progress-container">
+                        <div class="progress-item">
+                            <div class="progress-label">Reels: 67,5%</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 67.5%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-label">Stories: 32,2%</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill stories" style="width: 32.2%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-label">Publicações: 0,3%</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill publications" style="width: 0.3%;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="stat-card">
-                    <h3>855.528</h3>
-                    <p>Contas alcançadas (+3.127,3%)</p>
-                </div>
-                <div class="stat-card">
-                    <h3>Por tipo de conteúdo</h3>
-                    <p>Reels: 67,5% | Stories: 32,2% | Publicações: 0,3%</p>
-                </div>
-                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
                     <h3>Alcance do conteúdo</h3>
-                    <p>Reels: 54,4 mil | Publicações: 10,5 mil | Stories: 3.862 | Vídeos: 441</p>
+                    <p>Reels: 54,4 mil</p>
+                    <p>Publicações: 10,5 mil</p>
+                    <p>Stories: 3.862</p>
+                    <p>Vídeos: 441</p>
                 </div>
                 <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
                     <h3>55.546</h3>
                     <p>Contas alcançadas</p>
                     <p>(+334% x 26 set - 25 out)</p>
                 </div>
                 <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-venus-mars"></i></div>
                     <h3>Gênero</h3>
-                    <p>64,1% Mulheres | 35,8% Homens</p>
+                    <div class="gender-chart"></div>
+                    <div class="gender-legend">
+                        <div class="legend-item">
+                            <span class="legend-dot female"></span>
+                            <span>64,1% Mulheres</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot male"></span>
+                            <span>35,8% Homens</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,9 +139,47 @@
     <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">Sobre</h2>
-            <div class="about-content">
-                <p>Olá, me chamo Sol Alves, tenho 30 anos, sou digital influencer, pedagoga e psicopedagoga, mãe e esposa. Atuo nas redes sociais desde 2020, faz mais ou menos 3 anos e meio, mostro um pouco do meu cotidiano e faço de tudo pra fazer meu público sorrir, meu Instagram é voltado para o humor, maternidade e cotidiano.</p>
+            <h2 class="section-title">Sobre Sol Alves</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Olá, me chamo Sol Alves, tenho 30 anos, sou digital influencer, pedagoga e psicopedagoga, mãe e esposa. Atuo nas redes sociais desde 2020, faz mais ou menos 3 anos e meio, mostro um pouco do meu cotidiano e faço de tudo pra fazer meu público sorrir. Meu Instagram é voltado para o humor, maternidade e cotidiano. Compartilho momentos reais e autênticos, sempre com uma dose de positividade e leveza.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank" class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank" class="social-icon whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/1DPEFrsxet/" target="_blank" class="social-icon facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank" class="btn">Ver Perfil no Instagram</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-overlay">
+                        <div class="profile-header">
+                            <img src="Soll.jpg" alt="Profile Pic" class="profile-pic">
+                            <div class="profile-info">
+                                <div class="username-wrapper">
+                                    <span class="username">Sol Alves</span>
+                                    <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank" class="instagram-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <span class="handle">@solzinhaalvess</span>
+                                <span class="tags">Maternidade real • Humor • Vida real sem filtro</span>
+                            </div>
+                        </div>
+                        <div class="profile-stats">
+                            <div><span>844</span> Posts</div>
+                            <div><span>17K</span> Seguidores</div>
+                            <div><span>1788</span> Seguindo</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -88,10 +187,8 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="section">
         <div class="container">
-            <h2 class="section-title">Trabalhos</h2>
-            <div class="portfolio-intro">
-                <p>Tenho uma trajetória consolidada de colaborações com diversas empresas, mantendo parcerias fixas que refletem minha experiência e confiabilidade no setor.</p>
-            </div>
+            <h2 class="section-title">Trabalhos Recentes</h2>
+            <p class="section-subtitle">Tenho uma trajetória consolidada de colaborações com diversas empresas, mantendo parcerias fixas que refletem minha experiência e confiabilidade no setor.</p>
             <div class="portfolio-gallery">
                 <div class="gallery-item">
                     <iframe src="https://www.instagram.com/reel/C-dTAovOfMS/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
@@ -102,9 +199,9 @@
                 <div class="gallery-item">
                     <iframe src="https://www.instagram.com/reel/DIMt2B8P4KB/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
                 </div>
-                <div class="gallery-item">
-                    <iframe src="https://www.instagram.com/reel/C_y2_lGuki7/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-                </div>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank" class="btn">Ver mais no Instagram</a>
             </div>
         </div>
     </section>
@@ -112,22 +209,54 @@
     <!-- Pricing Section -->
     <section id="pricing" class="section">
         <div class="container">
-            <h2 class="section-title">Valores</h2>
+            <h2 class="section-title">Valores para Parcerias</h2>
+            <p class="section-subtitle">Valores para parcerias, menções e divulgações em redes sociais, com o que se adequam.</p>
             <div class="pricing-container">
                 <div class="pricing-card">
+                    <i class="fab fa-instagram pricing-icon"></i>
                     <h3>Divulgação no Story</h3>
-                    <p>Provador: R$ 150,00</p>
-                    <p>Visita na empresa: R$ 100,00</p>
-                    <p>Falar sobre serviços e produtos (divulgação simples): R$ 80,00</p>
+                    <p>Stories com alto engajamento</p>
+                    <p><i class="fas fa-check pricing-check"></i> Provador: R$ 150,00</p>
+                    <p><i class="fas fa-check pricing-check"></i> Visita na empresa: R$ 100,00</p>
+                    <p><i class="fas fa-check pricing-check"></i> Divulgação simples: R$ 80,00</p>
+                    <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank" class="btn">Solicitar Parceria</a>
                 </div>
                 <div class="pricing-card">
+                    <i class="fab fa-instagram pricing-icon"></i>
                     <h3>Divulgação no Feed</h3>
-                    <p>1 post no feed: R$ 100,00</p>
-                    <p>1 produção de reels: R$ 200,00</p>
+                    <p>Conteúdo permanente e mais visibilidade</p>
+                    <p><i class="fas fa-check pricing-check"></i> Post no feed: R$ 100,00</p>
+                    <p><i class="fas fa-check pricing-check"></i> Produção de reels: R$ 200,00</p>
+                    <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank" class="btn">Solicitar Parceria</a>
                 </div>
                 <div class="pricing-card">
+                    <i class="fab fa-instagram pricing-icon"></i>
                     <h3>Parcerias Mensal</h3>
-                    <p>1 divulgação por semana nos stories + Compartilhamento de reels (se a empresa assim desejar): R$ 300,00</p>
+                    <p>Presença constante e engajamento garantido</p>
+                    <p><i class="fas fa-check pricing-check"></i> Pacote Mensal: R$ 300,00</p>
+                    <p><i class="fas fa-check pricing-check"></i> 1 divulgação por semana nos stories</p>
+                    <p><i class="fas fa-check pricing-check"></i> Compartilhamento de reels (se a empresa assim desejar)</p>
+                    <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank" class="btn">Solicitar Parceria</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Vamos Trabalhar Juntos?</h2>
+            <p class="section-subtitle">Estou sempre aberta a novas parcerias e colaborações. Entre em contato comigo através das minhas redes sociais.</p>
+            <div class="contact-section">
+                <div class="contact-links">
+                    <a href="mailto:sol@live.com"><i class="fas fa-envelope"></i> sol@live.com</a>
+                    <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank"><i class="fab fa-instagram"></i> @solzinhaalvess</a>
+                    <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank"><i class="fab fa-whatsapp"></i> (86) 99405-7837</a>
+                    <a href="https://www.facebook.com/share/1DPEFrsxet/" target="_blank"><i class="fab fa-facebook-f"></i> Sol Alves</a>
+                </div>
+                <div class="contact-action">
+                    <p>Todas as mensagens são respondidas em até 48 horas. Para propostas urgentes, favor entrar em contato via WhatsApp.</p>
+                    <a href="https://wa.me/5586994057837?text=Oi!%20Você%20poderia%20me%20dar%20mais%20detalhes%20dos%20serviços%20que%20vc%20oferece?" target="_blank" class="btn">Resposta Rápida</a>
                 </div>
             </div>
         </div>
@@ -136,7 +265,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>Entre em contato: soll12@live.com</p>
+            <p>Entre em contato: <a href="mailto:sol@live.com">sol@live.com</a></p>
             <div class="social-icons">
                 <a href="https://www.instagram.com/solzinhaalvess?igsh=em9iejFucTVqaTV5" target="_blank" aria-label="Instagram">
                     <i class="fab fa-instagram"></i>
