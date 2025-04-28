@@ -1058,3 +1058,32 @@ footer p a:hover {
         -webkit-text-fill-color: transparent;
     }
 }
+
+/* Header */
+.logo {
+    position: absolute;
+    left: 20px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.logo-image {
+    height: 40px; /* Ajuste a altura para se adequar ao layout */
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Remover estilos desnecessários */
+.logo-icon, .logo-text {
+    display: none; /* Não são mais necessários */
+}
+
+@media screen and (max-width: 576px) {
+    .logo-image {
+        height: 30px; /* Reduz a altura em telas menores */
+    }
+}
